@@ -32,6 +32,7 @@ a {
 
 button,
 input {
+  border: 0;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
@@ -50,4 +51,8 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+dialog {
+    padding: 0;
 }
