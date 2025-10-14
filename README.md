@@ -1,1 +1,1 @@
-https://kalio-sp.github.io/zakrivayuschiy-teg-f/
+https://github.com/Kalio-sp/zakrivayuschiy-teg-f
