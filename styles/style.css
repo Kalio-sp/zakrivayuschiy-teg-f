@@ -59,7 +59,6 @@
   background-color: #fff;
   margin-block-end: 50px;
   width: var(--main-card_width);
-  width: 100%;
   border: 2px solid #000;
 }
 
@@ -417,7 +416,12 @@ dialog {
   }
 
   .header_content {
+    width: 100%;
     padding: 130px 0 125px;
+  }
+
+  .content_section {
+    width: 100%;
   }
 
   .article_text-block {
@@ -441,4 +445,10 @@ dialog {
     min-width: 341px;
     inset: 0;
   }
+}
+
+@media (width > 375px) {
+    .content_section {
+        width: 100%;
+    }
 }
