@@ -96,13 +96,6 @@
   margin-block-end: 25px;
 }
 
-.article_text-opinion {
-  font-family: var(--main-font), sans-serif;
-  font-variation-settings: "wght" var(--font-weight-regular);
-  font-size: 18px;
-  color: var(--black_color);
-}
-
 .article_text-block {
   margin-block-end: 25px;
   padding: 20px 25px 0 25px;
@@ -444,6 +437,10 @@ dialog {
   dialog {
     min-width: 341px;
     inset: 0;
+  }
+
+  .dialog_main svg {
+    min-width: 39px;
   }
 }
 
